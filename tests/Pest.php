@@ -10,8 +10,7 @@
 | need to change it using the "pest()" function to bind a different classes or traits.
 |
 */
-
-// pest()->extend(Tests\TestCase::class)->in('Feature');
+// pest()->extend(PHPUnit\Framework\TestCase::class)->in('../ExercicesPHPUnit/tests/AbstractPersonTest.php');
 
 /*
 |--------------------------------------------------------------------------

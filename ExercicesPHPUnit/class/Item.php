@@ -1,5 +1,7 @@
 <?php
 
+namespace ExercicesPHPUnit\class;
+
 class Item
 {
     public function getDescription() {

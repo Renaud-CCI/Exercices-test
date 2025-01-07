@@ -1,5 +1,7 @@
 <?php
 
+namespace ExercicesPHPUnit\class;
+
 abstract class AbstractPerson
 {
 

@@ -1,5 +1,9 @@
 <?php
 
+namespace ExercicesPHPUnit\class;
+
+use ExercicesPHPUnit\class\PaymentGateway;
+
 class Order {
 
     public $amount = 0;

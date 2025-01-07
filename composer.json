@@ -1,11 +1,18 @@
 {
     "require-dev": {
         "pestphp/pest": "^3.7",
-        "pestphp/pest-plugin": "^3.0"
+        "pestphp/pest-plugin": "^3.0",
+        "mockery/mockery": "^1.6"
     },
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ExercicesPHPUnit\\": "ExercicesPHPUnit/"
+
         }
     }
 }

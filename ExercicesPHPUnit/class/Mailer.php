@@ -1,5 +1,9 @@
 <?php
 
+namespace ExercicesPHPUnit\class;
+
+use Exception;
+
 class Mailer
 {
 

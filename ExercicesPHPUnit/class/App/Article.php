@@ -1,10 +1,14 @@
 <?php
 
-namespace App;
+namespace ExercicesPHPUnit\class\App;
 
 class Article {
 
 	public $title;
+
+    public function __construct() {
+        $this->title = '';
+    }
 
 	public function getSlug() {
 
@@ -16,4 +20,8 @@ class Article {
 
 		return trim($title, "_");
 	}
+
+    public function getTitle() {
+        return $this->title;
+    }
 }

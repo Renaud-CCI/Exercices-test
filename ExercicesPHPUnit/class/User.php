@@ -1,5 +1,10 @@
 <?php
 
+namespace ExercicesPHPUnit\class;
+
+use ExercicesPHPUnit\class\Mailer;
+use Exception;
+
 class User {
 
     public $first_name;
@@ -21,8 +26,10 @@ class User {
     }
 
     public function notify($message) {
-        //return call_user_func($this->mailer_callable, $this->email, $message);
-        return Mailer::send($this->email, $message);     
+        if (empty($this->email)) {
+            throw new \Exception('Email is empty');
+        }
+        return $this->mailer->send($this->email, $message);         
     }
 
     public function setMailerCallable($mailer_callable) {

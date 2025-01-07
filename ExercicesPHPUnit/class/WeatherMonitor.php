@@ -1,5 +1,9 @@
 <?php
 
+namespace ExercicesPHPUnit\class;
+
+use ExercicesPHPUnit\class\TemperatureService;
+
 class WeatherMonitor {
     protected $service;
 

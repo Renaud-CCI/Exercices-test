@@ -1,5 +1,9 @@
 <?php
 
+namespace ExercicesPHPUnit\class;
+
+use ExercicesPHPUnit\class\QueueException;
+
 class Queue
 {
     const MAX_ITEMS = 5;

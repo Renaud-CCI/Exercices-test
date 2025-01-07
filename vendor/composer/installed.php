@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '956e0bfa4687fbb941da0bb8a555e1c88544c089',
+        'reference' => '8b53c1a6bfee1038bd080abd8b801ff02d251b42',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '956e0bfa4687fbb941da0bb8a555e1c88544c089',
+            'reference' => '8b53c1a6bfee1038bd080abd8b801ff02d251b42',
             'dev_requirement' => false,
         ),
         'brianium/paratest' => array(
@@ -27,6 +27,18 @@
             'aliases' => array(),
             'reference' => '4fb3f73bc5a4c3146bac2850af7dc72435a32daf',
             'dev_requirement' => true,
+        ),
+        'cordoval/hamcrest-php' => array(
+            'dev_requirement' => true,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'davedevelopment/hamcrest-php' => array(
+            'dev_requirement' => true,
+            'replaced' => array(
+                0 => '*',
+            ),
         ),
         'doctrine/deprecations' => array(
             'pretty_version' => '1.1.4',
@@ -55,6 +67,15 @@
             'reference' => 'befcdc0e5dce67252aa6322d82424be928214fa2',
             'dev_requirement' => true,
         ),
+        'hamcrest/hamcrest-php' => array(
+            'pretty_version' => 'v2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hamcrest/hamcrest-php',
+            'aliases' => array(),
+            'reference' => '8c3d0a3f6af734494ad8f6fbbee0ba92422859f3',
+            'dev_requirement' => true,
+        ),
         'jean85/pretty-package-versions' => array(
             'pretty_version' => '2.1.0',
             'version' => '2.1.0.0',
@@ -62,6 +83,21 @@
             'install_path' => __DIR__ . '/../jean85/pretty-package-versions',
             'aliases' => array(),
             'reference' => '3c4e5f62ba8d7de1734312e4fff32f67a8daaf10',
+            'dev_requirement' => true,
+        ),
+        'kodova/hamcrest-php' => array(
+            'dev_requirement' => true,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'mockery/mockery' => array(
+            'pretty_version' => '1.6.12',
+            'version' => '1.6.12.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mockery/mockery',
+            'aliases' => array(),
+            'reference' => '1f4efdd7d3beafe9807b08156dfcb176d18f1699',
             'dev_requirement' => true,
         ),
         'myclabs/deep-copy' => array(
